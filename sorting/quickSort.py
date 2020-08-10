@@ -14,8 +14,8 @@ def quickSort(a , low , high):
        quickSort(a, low, pivot-1)
        quickSort(a, pivot+1, high)
 
-n=int(input("Enter total number of elemets"))
-arr=[int(x) for x in input("Enter the elements").split()]
-print("Before Quick Sort:",arr)
-quickSort(arr,0,n-1)
+# n=int(input("Enter total number of elemets"))
+# arr=[int(x) for x in input("Enter the elements").split()]
+arr=['a','b','a']
+quickSort(arr,0,len(arr)-1)
 print("After Quick Sort:",arr)
